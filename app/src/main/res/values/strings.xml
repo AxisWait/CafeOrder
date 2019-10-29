@@ -15,6 +15,12 @@
     <string name="coffee">Кофе</string>
     <string name="editions">Что добавить в вашь чай?</string>
     <string name="choose_drink">Выберете вид напитка?</string>
+    <string name="default_name">Клиент</string>
+    <string name="default_password">Пароль</string>
+    <string name="say_hello">Привет, %s! Что будете заказывать?</string>
+    <string name="additions_drink">Что добавить в ваш %s?</string>
+    <string name="order">Имя: %s Пароль: %s Напиток: %s Вид напитка: %s</string>
+    <string name="need_additions">Необходимые добавки:</string>
 
     <string-array name="options_of_coffee">
         <item>Американо</item>
