@@ -86,10 +86,10 @@ public class CreateOrderActivity extends AppCompatActivity {
         if(checkBoxSugar.isChecked()){
             builderAddition.append(getString(R.string.check_box_sugar)).append(" ");
         }
-        if(checkBoxSugar.isChecked() && drink.equals(getString(R.string.tea))){
-            builderAddition.append(getString(R.string.check_box_sugar)).append(" ");
+        if(checkBoxLemon.isChecked() && drink.equals(getString(R.string.tea))){
+            builderAddition.append(getString(R.string.check_box_lemon)).append(" ");
         }
-        String optionOfDrink ="";
+        String optionOfDrink;
 
         if(drink.equals(getString(R.string.tea)))
         {
